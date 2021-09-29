@@ -1,0 +1,69 @@
+@font-face {
+    font-family:Rubik ;
+    src: url(../fonts/Rubik-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Rubik;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+326deg
+, #a59c9c, #ffffff70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2vh;
+    background: #d1d8e2;
+    box-shadow: -6px -6px 12px #ffffff73, 6px 6px 10px rgb(0 0 0 / 29%);
+} 
+
+.input_fields form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#username,#password{
+    margin: 2vh 1vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: none;
+    box-shadow: inset 9px 10px 8px 0 rgb(0 0 0 / 20%), inset -6px -6px 10px 0 rgb(255 255 255 / 50%);
+}
+
+
+
+.input_fields{
+    margin: 6vh 0;
+}
+
+#submit{
+    margin: 2vh 1vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: none;
+    box-shadow: -12px -6px 12px #ffffff73, 12px 9px 8px rgb(0 0 0 / 28%)
+}
+
